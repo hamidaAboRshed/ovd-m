@@ -1,0 +1,33 @@
+
+#sideBar .accordion {margin:0px !important;}
+#sideBar .accordion li .title{background:#C5C5C5;color: #FFFFFF;padding:4px 8px;font-size:16px;font-weight:800;text-shadow: 1px 1px rgba(0,0,0,.6);}
+#sideBar .accordion li div.title::after {top:10px !important;border-color:transparent #FFFFFF transparent transparent;}
+#sideBar .accordion li.active div.title::after {top:13px !important;border-color:#FFFFFF transparent transparent transparent;}
+#sideBar .accordion li.active {background:#C5C5C5;color: #FFFFFF;border-top:1px solid #FFFFFF;}
+#sideBar .accordion li.active .content {background: #DFDFDF url("../images/texture-diamond.png") repeat scroll 0% 0%;}
+#sideBar{position:absolute;
+		left:0px;
+		top:40px;
+		height:100%;
+		width:220px;
+		background: #DFDFDF url("../images/texture-diamond.png") repeat scroll 0% 0%;
+		z-index:990;
+		border-right: 2px solid #FFFFFF;}
+
+#sidebar .legend{display: block;border-bottom: 1px solid #DDDDDD;margin: 0px;padding: 8px;background:#FFFFFF;min-height:30px;}
+#sidebar .legend:hover{background:#DCE4FF;border-bottom:1px solid #A3B7FF;}				
+
+#sideBar .accordion li .content {padding:2px;background:#E7E7E7;}
+#sidebar .tabs{margin-top:8px;}
+#sidebar .tabs-content li{background:#FFFFFF !important;padding:0px;}
+#sidebar .tabs-content a{display: block;border-bottom: 1px solid #DDDDDD;margin: 0px;padding: 8px;background:#FFFFFF;min-height:30px;}
+#sidebar .tabs-content a:hover{background:#DCE4FF;border-bottom:1px solid #A3B7FF;}
+#sidebar .content {overflow-y:scroll;padding:1px !important;}
+
+#searchForm {-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		background:#ffffff;
+		padding:6px;}
+		
+.categories {display:none;}		

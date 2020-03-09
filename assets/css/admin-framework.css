@@ -1,0 +1,133 @@
+/**************************************************************************
+LEFT COLUMN STYLES
+**************************************************************************/
+#leftColumn{
+	background-image:url(../images/background.jpg);
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:250px;
+	z-index:200;
+}
+
+#leftColumn .panelOne{padding-left:10px;height:50px;line-height:50px;background:#2A5D7D;border-right:1px solid #000000;color:#AFC2CE;font-size:22px;}
+#leftColumn .panelTwo{padding:0px 0px 0px 10px; height:30px;font-size:11px;color:#AAAAAA;line-height:30px;background:#232323;overflow:hidden;}
+#leftColumn .panelThree{padding:5px;height:56px;border-right:1px solid #B7B7B7;border-bottom:1px solid #B7B7B7;}
+#leftColumn .panelFour{min-height:800px;}
+#leftColumn .panelFive{padding:5px;height:40px;background:#232323;}
+
+#leftColumn .children {display:none;}
+
+#menuMinimize {margin-right:-8px;background-color:#FFFFFF;border-right:none;
+-webkit-border-top-left-radius: 18px;
+-webkit-border-bottom-left-radius: 18px;
+-moz-border-radius-topleft: 18px;
+-moz-border-radius-bottomleft: 18px;
+border-top-left-radius: 18px;
+border-bottom-left-radius: 18px;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;}
+#menuMaximize {margin-right:-8px;background-color:#FFFFFF;border-right:none;
+-webkit-border-top-left-radius: 18px;
+-webkit-border-bottom-left-radius: 18px;
+-moz-border-radius-topleft: 18px;
+-moz-border-radius-bottomleft: 18px;
+border-top-left-radius: 18px;
+border-bottom-left-radius: 18px;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;}
+
+/**************************************************************************
+LEFT COLUMN MENU
+**************************************************************************/
+
+#leftColumn .menuItems li{height:30px;border-bottom:1px solid #B7B7B7;display:table;width:250px;border-right:1px solid #B7B7B7;font-size:14px;margin-left:0px;}
+#leftColumn .menuItems li.active{background:#FFFFFF;border-right:1px solid #FFFFFF;}
+#leftColumn .menuItems li .subnav{background-image:url(../images/down-arrow.png);background-repeat:no-repeat;background-position:right center;}
+#leftColumn .menuItems li.child{border-left:8px solid #999999;background:#C7C7C7;text-shadow: 0px 1px 0px #DDDDDD;padding-left:5px;}
+#leftColumn .menuItems li.child.active{border-right:1px solid #AAAAAA;background:#BDBDBD;border-left:8px solid #FFFFFF;}
+#leftColumn .menuItems li a{height:30px;line-height:30px;display:table-cell;vertical-align:middle;cursor:pointer;color:#666666;font-size:12px;}
+#leftColumn .menuItems li a span{background-repeat:no-repeat;background-size:100%;background-position:left center;height:30px;width:20px;float:left;margin:0px 11px 0px 6px;}
+#leftColumn .menuItems li a:hover{font-weight:bold;}
+
+
+/**************************************************************************
+RIGHT COLUMN STYLES
+**************************************************************************/
+
+#rightColumn{
+	margin-left:250px;
+	background:#FFFFFF;
+}
+
+#loginColumn{
+	background:#FFFFFF;
+}
+
+.rightPanelOne{padding:5px;height:50px;height:50px;background:#4E7994;}
+.rightPanelTwo{padding:0px 0px 0px 10px; height:30px;background:#333333;font-size:11px;color:#FFFFFF;line-height:30px;}
+.rightPanelTwo .active {color:#ffffff;font-weight:bold;}
+.rightPanelThree{padding:0px 0px 0px 10px; display:block;height:56px;border-bottom:1px solid #B7B7B7;}
+.rightPanelThree h3{margin:14px 10px 0px 0px;float:left;vertical-align:middle;font-weight:normal}
+.rightPanelThree span{background-repeat:no-repeat;background-position:left center;height:56px;width:70px;float:left;margin:0px 5px 0px 5px;}
+
+.rightPanelFour{min-height:400px;padding:20px 20px 0px 10px;background:#FFFFFF;}
+.rightPanelFive{display:table-row;width:100%;position:fixed;z-index:10000;bottom:0px;padding:0px 0px 0px 10px; height:30px;background:#333333;border-left:1px solid #585858;font-size:11px;color:#CCCCCC;line-height:40px;}
+
+#contentFrame {border:0px;width:100%;height:100%;}
+
+
+.instructions{line-height:1.5em;display:block;}
+
+
+.adminButton{
+	background: none repeat scroll 0% 0% #4E7994 !important;
+	border: 1px solid rgb(42, 93, 125) !important;
+	padding: 12px !important;
+	-webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+	box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.3);
+}
+
+/**************************************************************************
+ADDITIONAL PANEL STYLES
+**************************************************************************/
+.panel .title {margin: -16px -16px 17px -16px; background: #FFEBB4; border-bottom: 2px solid #FFDA92; padding: 15px; font-size: 14px; font-weight: bold;}
+
+.panel.blue { background-color: #E6F1FB; border: solid 1px #DDDDDD;}
+.panel.blue .title {margin: -16px -16px 17px -16px; background: #CAE2F5; border-bottom: 2px solid #DDDDDD; padding: 15px; font-size: 14px; font-weight: bold;}
+
+.panel.red { background-color: #FFE2E2; border: solid 1px #FF8989;}
+.panel.red .title {margin: -16px -16px 17px -16px; background: #FFB6B6; border-bottom: 2px solid #FF8989; padding: 15px; font-size: 14px; font-weight: bold;}
+
+
+.panel.mini {float:right;margin-bottom:10px;padding:10px;}
+.panel.mini a{font-weight:bold;}
+
+.fieldGroupNote{ border-left: 50px solid #FFDA92; border-radius: 6px; margin-top: 10px; padding:10px !important;}
+.panel.blue.fieldGroupNote{border-left: 50px solid #DDDDDD;}
+.panel.red.fieldGroupNote{border-left: 50px solid #FF8989;}
+.fieldGroupNoteText{margin-left: -50px;padding: 10px 10px 10px 50px;background-position-y: 50%;}
+
+/**************************************************************************
+HELP STYLES
+**************************************************************************/
+.helpBubble{-webkit-border-radius: 8px;
+				-moz-border-radius: 8px;
+					border-radius: 8px;
+				display:inline-block;
+				width:16px;
+				height:16px;
+				margin:0px 2px 0px 2px;
+				font-family:arial;
+				font-weight:bold;
+				border:1px solid #FFD11B;
+				background:#FFFFDE;
+				color:#FFA337;
+				font-size:10px;
+				text-align:center;
+				text-decoration:none;
+				line-height:14px;
+	}
